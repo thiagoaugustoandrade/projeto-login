@@ -17,9 +17,7 @@ body, html {
     width: 100vw;
 }
 
-body{
-    background-image: linear-gradient(to bottom, #fffb00, #000000ab);
-}
+
 
 main{
     position: relative;
