@@ -32,21 +32,31 @@ main{
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.459);
 
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 500px;
+    height: 768px;
     border-radius: 20px;
 
 }
 
 #login > #imagem{
     display: block;
-    background: #49a09d url(../imagens/foto-login.jpg);
+    background: #49a09d url(../imagens/foto-login2.jpg);
     background-size: cover;
-    height: 200px;
+    height: 400px;
 }
 
 #login > #formulario{
     display: block;
     padding: 15px;
 
+}
+
+#formulario > h1{
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 10px;
+}
+
+#formulario > p{
+    
 }
