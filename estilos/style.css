@@ -12,7 +12,7 @@ Lilás: #5f2c82
 }
 
 body, html {
-    background-color: #ffff006f;
+    background-color: #ffff0079;
     height: 100vh;
     width: 100vw;
 }
@@ -44,32 +44,32 @@ main{
 
 #login > #imagem{
     display: block;
-    background: #49a09d url(../imagens/foto-login2.jpg);
+    background: url(../imagens/foto-login2.jpg);
     background-size: cover;
     background-position: right top;
-    height: 400px;
+    height: 350px;
 }
 
 #login > #formulario{
     display: block;
-    padding: 15px;
 
 }
 
 #formulario > h1{
     text-align: center;
     font-size: 35px;
-    padding-bottom: 5px;
+    
 }
 
 #formulario > #chave{
     text-align: center;
+    font-weight: bold;
     
 }
 
 #formulario > #chave2{
     text-align: center;
-    padding: 10px;
+    padding: 20px;
     
 }
 
