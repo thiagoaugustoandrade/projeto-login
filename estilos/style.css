@@ -42,6 +42,7 @@ main{
     display: block;
     background: #49a09d url(../imagens/foto-login2.jpg);
     background-size: cover;
+    background-position: right top;
     height: 400px;
 }
 
