@@ -1,0 +1,43 @@
+@media screen and (min-width: 768px) and (max-width: 992px) { /*TABLET*/
+    body{
+        background-image: linear-gradient(to bottom, #fffb00, #000000ab);
+    }
+
+    #login{
+        width: 90vw;
+    }
+
+    #login > #imagem{
+        float: left;
+        width: 40%;
+        height: 100%;
+        background-position: center top;
+    }
+
+    #login > #formulario{
+        float: right;
+        width: 60%;
+        height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*TELAS GRANDES*/
+    body{
+        background-image: linear-gradient(to bottom, #fffb00, #000000ab);
+    }
+    
+    #login{
+        width: 990px;
+    }
+
+    #login > #imagem{
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    #login > #formulario{
+        float: right;
+        width: 50%;
+    }
+}

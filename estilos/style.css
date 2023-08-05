@@ -12,9 +12,13 @@ Lilás: #5f2c82
 }
 
 body, html {
-    background-color: #5f2c82;
+    background-color: #ffff006f;
     height: 100vh;
     width: 100vw;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #fffb00, #000000ab);
 }
 
 main{
@@ -36,6 +40,8 @@ main{
     height: 740px;
     border-radius: 20px;
 
+    transition: width 0.5s, height 0.5s;
+    -o-transition-timing-function: ease ;
 }
 
 #login > #imagem{
@@ -55,9 +61,17 @@ main{
 #formulario > h1{
     text-align: center;
     font-size: 35px;
-    padding-bottom: 10px;
+    padding-bottom: 5px;
 }
 
-#formulario > p{
-
+#formulario > #chave{
+    text-align: center;
+    
 }
+
+#formulario > #chave2{
+    text-align: center;
+    padding: 10px;
+    
+}
+
