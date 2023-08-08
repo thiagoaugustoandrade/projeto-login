@@ -5,6 +5,7 @@
 
     #login{
         width: 90vw;
+        height: 380px;
     }
 
     #login > #imagem{
@@ -21,13 +22,14 @@
     }
 }
 
-@media screen and (min-width: 992px) and (max-width: 1200px) { /*TELAS GRANDES*/
+@media screen and (min-width: 992px) { /*TELAS GRANDES*/
     body{
         background-image: linear-gradient(to bottom, #fffb00, #000000ab);
     }
     
     #login{
         width: 990px;
+        height: 350px;
     }
 
     #login > #imagem{
@@ -39,5 +41,9 @@
     #login > #formulario{
         float: left;
         width: 50%;
+    }
+
+    .campo{
+        width:200px ;
     }
 }
